@@ -4,7 +4,7 @@ const app=express();
 const port=3000;
 
 app.get('/', (req, res) =>{
-  res.send("Hola mundo desde NodeJs y Express \n Atte_ \nDiego Israel Ramirez Martinez");
+  res.send("<h1>Hola mundo</h1></br> <h2>desde Node.js y Express</h2></br> <h3>Atte: Diego Israel Ramirez Martinez</h3>");
 })
 
 app.get('/nueva-ruta', (req, res) =>{
