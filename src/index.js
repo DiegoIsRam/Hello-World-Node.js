@@ -4,7 +4,7 @@ const app=express();
 const port=3000;
 
 app.get('/', (req, res) =>{
-  res.send("<h1>Hola mundo</h1></br> <h2>desde Node.js y Express</h2></br> <h3>Atte: Diego Israel Ramirez Martinez</h3>");
+  res.send("<body style="background: #E8F9FD "><h1 style="color: #2155CD;" >😎👌 Hola mundo 😎👌</h1><h2 style="color: #0AA1DD">💻 Desde Node.js y Express 💻</h2><h3 style="color: #79DAE8">🧑🏽‍💻 Atte: Diego Israel Ramirez Martinez 🧑🏽‍💻</h3></body>");
 })
 
 app.get('/nueva-ruta', (req, res) =>{
